@@ -6,7 +6,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ## Links
 
 - Solution URL: [Any feedback would be great](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ/hub/my-second-challange-profile-card-html-and-css-cqKs73gpzl)
-- Live Site URL: [QR Code component](https://alienowy.github.io/profile-card-component-practice-2/)
+- Live Site URL: [Profil Card Component](https://alienowy.github.io/profile-card-component-practice-2/)
 
 
 ## Built with
