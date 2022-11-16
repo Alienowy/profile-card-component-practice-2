@@ -20,14 +20,14 @@ main{
     align-items: center;
 }
 .card-cointeiner{
-    width: 330px;
+    width: 350px;
     height: fit-content;
     background-color: white;
     border-radius: 15px;
 }
 
 .upper-Card{
-    width: 330px;
+    width: 350px;
     height: 140px;
     background: url(./images/bg-pattern-card.svg);
     background-size: cover;
