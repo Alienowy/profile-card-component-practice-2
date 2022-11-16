@@ -5,12 +5,12 @@
 }
 
 main{
-    max-width: 1440px;
     min-height: 100vh;
     background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
-    background-position: bottom 400px right 900px, top 400px left 900px;
-    background-size: contain, contain;
+    background-position: bottom right 800px, top left 800px;
+    background-size: cover, cover;
+    overflow: hidden;
     background-color: hsl(185, 75%, 39%);
     font-family: kumbh sans;
     font-size: 18px;
@@ -19,15 +19,15 @@ main{
     align-items: center;
 }
 .card-cointeiner{
-    width: 350px;
+    width: 330px;
     height: fit-content;
     background-color: white;
     border-radius: 15px;
 }
 
 .upper-Card{
-    width: 350px;
-    height: 150px;
+    width: 330px;
+    height: 140px;
     background: url(./images/bg-pattern-card.svg);
     background-size: cover;
     border-top-left-radius: 15px;
