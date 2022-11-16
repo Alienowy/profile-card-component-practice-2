@@ -1,45 +1,52 @@
-body{
+*{
     margin: 0;
     padding: 0;
-    background-color:hsl(185, 75%, 39%);
+    box-sizing: border-box;
 }
 
-.card{
+main{
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom 400px right 900px, top 400px left 900px;
+    background-size: contain, contain;
+    background-color: hsl(185, 75%, 39%);
+    min-height: 100vh;
+    font-family: kumbh sans;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-cointeiner{
     width: 330px;
     height: fit-content;
-    position: absolute;
     background-color: white;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
     border-radius: 15px;
 }
 
-img{
-    position: relative;
-    display: block;
-    margin: auto;
-    top: -55px;
-    border: 5px solid white;
-    border-radius: 100px;
-}
-
-svg{
-    width: 100%;
+.upper-Card{
+    width: 330px;
+    height: 150px;
+    background: url(./images/bg-pattern-card.svg);
+    background-size: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 
-.dataId{
+img{
+    width: 110px;
+    height: 110px;
+    border: 5px solid white;
+    border-radius: 50%;
+    display: block;
+    margin: -50px auto -30px auto;
+    
+}
+.card-body{
     text-align: center;
-    position: relative;
-    top: -30px;
-    font-family: kumbh sans;
-    font-size: 18px;
+    margin-top: 30px;
     color: hsl(227, 10%, 46%);
-    line-height: 15px;
+    margin-top: 50px;
 }
 
 span{
@@ -48,32 +55,30 @@ span{
 }
  p{
     font-size: 14px;
+    margin: 8px auto 25px auto;
  }
 
- section{
-    position: relative;
-    top: -20px;
+.act-cointeiner{
     border-top: 1px solid hsla(227, 10%, 46%, 0.195);
- }
-
- .statistics{
-    display: inline-block;
     text-align: center;
-    font-family: kumbh sans;
-    font-size: 18px;
-    line-height: 15px;
-    margin-top: 25px;
-    margin-left: 44px;
-    margin-bottom: -8px;
-    
-    
+    display: flex;
+    align-content: center;
+    justify-content:space-between;
+    line-height: 20px;
+    padding: 25px 50px 20px 50px;
+    color:hsl(229, 23%, 23%);
  }
-
- .statistics > p{
+ .act-cointeiner > div{
+    width: 60px;
+    height: 40px;
+ }
+.activity{
     font-size: 10px;
+    font-weight: 300;
     color: hsl(227, 10%, 46%);
-    letter-spacing: 1px;
- }
+    letter-spacing: 2px;
+}
+
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
