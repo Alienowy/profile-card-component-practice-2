@@ -10,6 +10,7 @@ main{
     background-repeat: no-repeat, no-repeat;
     background-position: bottom right 800px, top left 800px;
     background-size: cover, cover;
+    margin: 0 auto;
     overflow: hidden;
     background-color: hsl(185, 75%, 39%);
     font-family: kumbh sans;
