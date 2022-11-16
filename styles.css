@@ -5,12 +5,13 @@
 }
 
 main{
+    max-width: 1440px;
+    min-height: 100vh;
     background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: bottom 400px right 900px, top 400px left 900px;
     background-size: contain, contain;
     background-color: hsl(185, 75%, 39%);
-    min-height: 100vh;
     font-family: kumbh sans;
     font-size: 18px;
     display: flex;
@@ -18,14 +19,14 @@ main{
     align-items: center;
 }
 .card-cointeiner{
-    width: 330px;
+    width: 350px;
     height: fit-content;
     background-color: white;
     border-radius: 15px;
 }
 
 .upper-Card{
-    width: 330px;
+    width: 350px;
     height: 150px;
     background: url(./images/bg-pattern-card.svg);
     background-size: cover;
