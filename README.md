@@ -10,8 +10,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 
 ## Built with
--HTML
--CSS
+- HTML
+- CSS (Flexbox)
 
 ## Author
 
